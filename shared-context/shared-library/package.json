@@ -2,7 +2,11 @@
   "name": "@shared-context/shared-library",
   "version": "0.0.1",
   "private": true,
-  "main": "./src/index.js",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js",
+    "./test/NameContextProvider.js": "./src/NameContextProvider.js"
+  },
   "peerDependencies": {
     "react": "^16.13.0"
   }

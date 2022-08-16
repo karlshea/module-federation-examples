@@ -1,4 +1,4 @@
-import { NameContextProvider } from '@shared-context/shared-library';
+import { NameContextProvider } from '@shared-context/shared-library/test/NameContextProvider.js';
 import React from 'react';
 
 const Welcome = () => {
